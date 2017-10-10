@@ -141,6 +141,7 @@ namespace TestingGrounds
         private static void Printer(List<Mob> list)
         {
             Console.Clear();
+            Console.WriteLine("Press Any key to continue(not ESC tho)");
             Console.WriteLine("TYPE,    ID, HEALTH, ATTACK, SPEED, AGILITY, KILLSTREAK, Breed, Parents");
             foreach (Mob listItem in list)
             {
